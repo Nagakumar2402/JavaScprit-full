@@ -48,3 +48,14 @@ console.table([
     console.log("hello");
   },
 ]);
+let myName = "naga";
+let newName = myName.charAt(0).toUpperCase() + myName.slice(1);
+console.log(newName);
+let str = "buy ViAgRA now";
+let str1 = str.toLowerCase();
+console.log(str1);
+if (str1.includes("viagra1")) {
+  console.log(true);
+} else {
+  console.log(false);
+}
